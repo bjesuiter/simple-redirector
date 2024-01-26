@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "start": "TARGET_URL=https://meet.internett.de/rooms/5py-jlg-wrv-rno/join deno run --allow-net --allow-env main.ts",
+    "dev": "deno run --watch main.ts"
+  }
+}
