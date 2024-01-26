@@ -4,7 +4,7 @@ import { z } from "https://deno.land/x/zod@v3.22.4/mod.ts";
 const configRaw = json5.parse(await Deno.readTextFile("./config.json5"));
 
 const { redirects } = z.object({
-  redirects: z.map(z.string(), z.string()),
+  redirects: z.record(z.string(), z.string()),
 }).parse(configRaw);
 
 const handler = (request: Request, _info: any) => {
