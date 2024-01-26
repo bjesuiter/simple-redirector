@@ -1,7 +1,8 @@
 const targetUrl = Deno.env.get("TARGET_URL");
 
 if (!targetUrl) {
-  throw new Error("TARGET_URL environment variable is not set.");
+  console.error("TARGET_URL environment variable is not set");
+  Deno.exit(0);
 }
 
 const handler = (_request: Request, _info: any) => {
