@@ -9,7 +9,7 @@ const { redirects } = z.object({
 
 const handler = (request: Request, _info: any) => {
   const reqUrl = new URL(request.url);
-  const targetUrl = redirects.get(reqUrl.hostname);
+  const targetUrl = redirects[reqUrl.hostname];
 
   if (!targetUrl) {
     return new Response(
