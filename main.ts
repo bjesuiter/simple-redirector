@@ -13,7 +13,7 @@ const handler = (request: Request, _info: any) => {
 
   if (!targetUrl) {
     return new Response(
-      `No Redirect Mapping found for request hostname "${reqUrl.hostname}" `,
+      `No redirect mapping found for request hostname "${reqUrl.hostname}" `,
       { status: 404 },
     );
   }
