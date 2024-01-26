@@ -2,5 +2,7 @@
 	// map of redirects from hostnames to target url
 	'redirects': {
 		'meet.tt-bj2.de': 'https://meet.internett.de/rooms/5py-jlg-wrv-rno/join',
+		'mail.jesuiter.com': 'https://webmail.hosting.de/',
+		'webmail.jesuiter.com': 'https://webmail.hosting.de/',
 	},
 }
