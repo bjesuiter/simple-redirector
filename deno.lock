@@ -1,0 +1,8 @@
+{
+  "version": "3",
+  "redirects": {
+    "https://deno.land/x/json5/mod.ts": "https://deno.land/x/json5@v1.0.0/mod.ts",
+    "https://deno.land/x/zod/mod.ts": "https://deno.land/x/zod@v3.22.4/mod.ts"
+  },
+  "remote": {}
+}
