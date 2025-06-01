@@ -1,6 +1,7 @@
 {
   "tasks": {
+    "cache": "deno cache main.ts",
     "start": "deno run --allow-net --allow-read=./config.json5 main.ts",
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --allow-net --allow-read=./config.json5 --watch main.ts"
   }
 }

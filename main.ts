@@ -1,5 +1,5 @@
-import json5 from "https://deno.land/x/json5@v1.0.0/mod.ts";
-import { z } from "https://deno.land/x/zod@v3.22.4/mod.ts";
+import json5 from "npm:json5@~2.2.0";
+import { z } from "npm:zod@~3.25.0";
 
 const configRaw = json5.parse(await Deno.readTextFile("./config.json5"));
 

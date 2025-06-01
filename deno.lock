@@ -1,5 +1,25 @@
 {
-  "version": "3",
+  "version": "5",
+  "specifiers": {
+    "npm:json5@*": "2.2.3",
+    "npm:json5@2.2": "2.2.3",
+    "npm:zod@*": "3.25.46",
+    "npm:zod@3": "3.25.46",
+    "npm:zod@3.22": "3.22.5",
+    "npm:zod@3.25": "3.25.46"
+  },
+  "npm": {
+    "json5@2.2.3": {
+      "integrity": "sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==",
+      "bin": true
+    },
+    "zod@3.22.5": {
+      "integrity": "sha512-HqnGsCdVZ2xc0qWPLdO25WnseXThh0kEYKIdV5F/hTHO75hNZFp8thxSeHhiPrHZKrFTo1SOgkAj9po5bexZlw=="
+    },
+    "zod@3.25.46": {
+      "integrity": "sha512-IqRxcHEIjqLd4LNS/zKffB3Jzg3NwqJxQQ0Ns7pdrvgGkwQsEBdEQcOHaBVqvvZArShRzI39+aMST3FBGmTrLQ=="
+    }
+  },
   "redirects": {
     "https://deno.land/x/json5/mod.ts": "https://deno.land/x/json5@v1.0.0/mod.ts",
     "https://deno.land/x/zod/mod.ts": "https://deno.land/x/zod@v3.22.4/mod.ts"
